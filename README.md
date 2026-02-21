@@ -11,6 +11,15 @@ The project covers data preprocessing, model training, and evaluation.
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d0daffbf-2a25-41c3-af95-e7b590219add" /> 
 
+Predicting breast cancer using a machine learning model
+
+Problem statement: To identify and create a machine learning model that predicts whether a patient has breast cancer. The goal is to find the accuracy score of the breast cancer prediction model with a random seed set to 0.
+
+Data: The data set is placed at: https://github.com/sandhyashinde06/repo/blob/main/dataset_ML.csv
+
+Evaluation: This prediction aims at gaining an accuracy score higher than 95.8% at predicting whether the patient has a malignant or benign tumor.
+
+Data extraction and evaluation: Since all the data is in the form of numbers, we would not have to keep converting categorical data types to numeric types. Also, as there are no missing values, we do not worry about missing computed data. In the heatmap, we observe that the mean fractal dimension, texture error, smoothness error, symmetry error, and fractal dimension errors influence the target variable, and that there are more samples of benign than malignant tumors.
 
 This project predicts whether a patient belongs to:
 - `no-recurrence-events`
